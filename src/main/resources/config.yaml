@@ -1,0 +1,151 @@
+---
+width: 15
+length: 10
+duringOfCycle: 5000
+percentWeightLoss: 5.0
+percentReducedSatiety: 10.0
+maxWeightOfPlant: 200.0
+plantPrint: "\U0001f33f травка"
+maxCountOfSteps:
+  ru.javarush.islandModel.model.animal.predator.Python: 1
+  ru.javarush.islandModel.model.animal.omnivore.Mouse: 1
+  ru.javarush.islandModel.model.animal.herbivore.Rabbit: 2
+  ru.javarush.islandModel.model.animal.omnivore.Duck: 4
+  ru.javarush.islandModel.model.animal.predator.Wolf: 3
+  ru.javarush.islandModel.model.animal.predator.Eagle: 3
+  ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 0
+  ru.javarush.islandModel.model.animal.herbivore.Deer: 4
+  ru.javarush.islandModel.model.animal.omnivore.Hog: 2
+  ru.javarush.islandModel.model.animal.herbivore.Buffalo: 3
+  ru.javarush.islandModel.model.animal.herbivore.Horse: 4
+  ru.javarush.islandModel.model.animal.herbivore.Goat: 3
+  ru.javarush.islandModel.model.animal.herbivore.Sheep: 3
+  ru.javarush.islandModel.model.animal.predator.Fox: 2
+  ru.javarush.islandModel.model.animal.predator.Bear: 2
+foodPreferences:
+  ru.javarush.islandModel.model.animal.predator.Python:
+    ru.javarush.islandModel.model.animal.omnivore.Mouse: 40
+    ru.javarush.islandModel.model.animal.omnivore.Duck: 10
+    ru.javarush.islandModel.model.animal.predator.Fox: 15
+    ru.javarush.islandModel.model.animal.herbivore.Rabbit: 20
+  ru.javarush.islandModel.model.animal.omnivore.Mouse:
+    ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 90
+  ru.javarush.islandModel.model.animal.omnivore.Hog:
+    ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 90
+    ru.javarush.islandModel.model.animal.omnivore.Mouse: 50
+  ru.javarush.islandModel.model.animal.omnivore.Duck:
+    ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 90
+  ru.javarush.islandModel.model.animal.predator.Wolf:
+    ru.javarush.islandModel.model.animal.herbivore.Goat: 60
+    ru.javarush.islandModel.model.animal.omnivore.Mouse: 80
+    ru.javarush.islandModel.model.animal.herbivore.Horse: 10
+    ru.javarush.islandModel.model.animal.herbivore.Rabbit: 60
+    ru.javarush.islandModel.model.animal.herbivore.Buffalo: 10
+    ru.javarush.islandModel.model.animal.herbivore.Sheep: 70
+    ru.javarush.islandModel.model.animal.herbivore.Deer: 15
+    ru.javarush.islandModel.model.animal.omnivore.Duck: 40
+    ru.javarush.islandModel.model.animal.omnivore.Hog: 15
+  ru.javarush.islandModel.model.animal.predator.Fox:
+    ru.javarush.islandModel.model.animal.omnivore.Mouse: 90
+    ru.javarush.islandModel.model.animal.omnivore.Duck: 60
+    ru.javarush.islandModel.model.animal.herbivore.Rabbit: 70
+    ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 40
+  ru.javarush.islandModel.model.animal.predator.Eagle:
+    ru.javarush.islandModel.model.animal.omnivore.Mouse: 90
+    ru.javarush.islandModel.model.animal.omnivore.Duck: 80
+    ru.javarush.islandModel.model.animal.predator.Fox: 10
+    ru.javarush.islandModel.model.animal.herbivore.Rabbit: 90
+  ru.javarush.islandModel.model.animal.predator.Bear:
+    ru.javarush.islandModel.model.animal.herbivore.Goat: 70
+    ru.javarush.islandModel.model.animal.herbivore.Rabbit: 80
+    ru.javarush.islandModel.model.animal.herbivore.Sheep: 70
+    ru.javarush.islandModel.model.animal.omnivore.Duck: 10
+    ru.javarush.islandModel.model.animal.predator.Python: 80
+    ru.javarush.islandModel.model.animal.herbivore.Horse: 40
+    ru.javarush.islandModel.model.animal.herbivore.Buffalo: 20
+    ru.javarush.islandModel.model.animal.herbivore.Deer: 80
+    ru.javarush.islandModel.model.animal.omnivore.Hog: 50
+    ru.javarush.islandModel.model.animal.omnivore.Mouse: 90
+dailyAllowance:
+  ru.javarush.islandModel.model.animal.predator.Python: 3.0
+  ru.javarush.islandModel.model.animal.omnivore.Mouse: 0.01
+  ru.javarush.islandModel.model.animal.herbivore.Rabbit: 0.45
+  ru.javarush.islandModel.model.animal.omnivore.Duck: 0.15
+  ru.javarush.islandModel.model.animal.predator.Wolf: 8.0
+  ru.javarush.islandModel.model.animal.predator.Eagle: 1.0
+  ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 0.1
+  ru.javarush.islandModel.model.animal.herbivore.Deer: 50.0
+  ru.javarush.islandModel.model.animal.omnivore.Hog: 50.0
+  ru.javarush.islandModel.model.animal.herbivore.Buffalo: 100.0
+  ru.javarush.islandModel.model.animal.herbivore.Horse: 60.0
+  ru.javarush.islandModel.model.animal.herbivore.Goat: 10.0
+  ru.javarush.islandModel.model.animal.herbivore.Sheep: 15.0
+  ru.javarush.islandModel.model.animal.predator.Fox: 2.0
+  ru.javarush.islandModel.model.animal.predator.Bear: 80.0
+weightAvg:
+  ru.javarush.islandModel.model.animal.predator.Python: 15.0
+  ru.javarush.islandModel.model.animal.omnivore.Mouse: 0.05
+  ru.javarush.islandModel.model.animal.herbivore.Rabbit: 4.0
+  ru.javarush.islandModel.model.animal.omnivore.Duck: 1.0
+  ru.javarush.islandModel.model.animal.predator.Wolf: 50.0
+  ru.javarush.islandModel.model.animal.predator.Eagle: 6.0
+  ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 0.01
+  ru.javarush.islandModel.model.animal.herbivore.Deer: 300.0
+  ru.javarush.islandModel.model.animal.omnivore.Hog: 400.0
+  ru.javarush.islandModel.model.animal.herbivore.Buffalo: 700.0
+  ru.javarush.islandModel.model.animal.herbivore.Horse: 400.0
+  ru.javarush.islandModel.model.animal.herbivore.Goat: 60.0
+  ru.javarush.islandModel.model.animal.herbivore.Sheep: 70.0
+  ru.javarush.islandModel.model.animal.predator.Fox: 8.0
+  ru.javarush.islandModel.model.animal.predator.Bear: 500.0
+maxCountOfBrood:
+  ru.javarush.islandModel.model.animal.predator.Python: 3
+  ru.javarush.islandModel.model.animal.omnivore.Mouse: 50
+  ru.javarush.islandModel.model.animal.herbivore.Rabbit: 6
+  ru.javarush.islandModel.model.animal.omnivore.Duck: 20
+  ru.javarush.islandModel.model.animal.predator.Wolf: 6
+  ru.javarush.islandModel.model.animal.predator.Eagle: 8
+  ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 1000
+  ru.javarush.islandModel.model.animal.herbivore.Deer: 3
+  ru.javarush.islandModel.model.animal.omnivore.Hog: 3
+  ru.javarush.islandModel.model.animal.herbivore.Buffalo: 3
+  ru.javarush.islandModel.model.animal.herbivore.Horse: 1
+  ru.javarush.islandModel.model.animal.herbivore.Goat: 4
+  ru.javarush.islandModel.model.animal.herbivore.Sheep: 3
+  ru.javarush.islandModel.model.animal.predator.Fox: 6
+  ru.javarush.islandModel.model.animal.predator.Bear: 3
+maxCountOnLocation:
+  ru.javarush.islandModel.model.animal.predator.Python: 30
+  ru.javarush.islandModel.model.animal.omnivore.Mouse: 500
+  ru.javarush.islandModel.model.animal.herbivore.Rabbit: 150
+  ru.javarush.islandModel.model.animal.omnivore.Duck: 200
+  ru.javarush.islandModel.model.animal.predator.Wolf: 30
+  ru.javarush.islandModel.model.animal.predator.Eagle: 20
+  ru.javarush.islandModel.model.animal.herbivore.Caterpillar: 1000
+  ru.javarush.islandModel.model.animal.herbivore.Deer: 20
+  ru.javarush.islandModel.model.animal.herbivore.Buffalo: 10
+  ru.javarush.islandModel.model.animal.omnivore.Hog: 50
+  ru.javarush.islandModel.model.animal.herbivore.Horse: 20
+  ru.javarush.islandModel.model.animal.herbivore.Goat: 140
+  ru.javarush.islandModel.model.animal.herbivore.Sheep: 140
+  ru.javarush.islandModel.model.animal.predator.Fox: 30
+  ru.javarush.islandModel.model.animal.predator.Bear: 5
+animalPrints:
+  ru.javarush.islandModel.model.animal.predator.Python: "\U0001f40d змеи     "
+  ru.javarush.islandModel.model.animal.omnivore.Mouse: "\U0001f401 мышки    "
+  ru.javarush.islandModel.model.animal.herbivore.Rabbit: "\U0001f407 кролики  "
+  ru.javarush.islandModel.model.animal.omnivore.Duck: "\U0001f986 уточки   "
+  ru.javarush.islandModel.model.animal.predator.Wolf: "\U0001f43a волки    "
+  ru.javarush.islandModel.model.animal.predator.Eagle: "\U0001f985 орлы     "
+  ru.javarush.islandModel.model.animal.herbivore.Caterpillar: "\U0001f41b гусенички"
+  ru.javarush.islandModel.model.animal.herbivore.Deer: "\U0001f98c оленята  "
+  ru.javarush.islandModel.model.animal.herbivore.Buffalo: "\U0001f403 бизончики"
+  ru.javarush.islandModel.model.animal.omnivore.Hog: "\U0001f417 свинюшки "
+  ru.javarush.islandModel.model.animal.herbivore.Horse: "\U0001f40e лошадки  "
+  ru.javarush.islandModel.model.animal.herbivore.Goat: "\U0001f410 козлятки "
+  ru.javarush.islandModel.model.animal.herbivore.Sheep: "\U0001f411 овечки   "
+  ru.javarush.islandModel.model.animal.predator.Fox: "\U0001f98a лисички  "
+  ru.javarush.islandModel.model.animal.predator.Bear: "\U0001f43b медведи  "
+corePoolSize: 4
+criticalNumberExtinctTypes: 3
+getOnLocationStatistics: true
